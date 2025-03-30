@@ -40,7 +40,7 @@ class ContactFormMail extends Mailable
     {
         return new Content(
             //view: 'view.name',
-            view:'website.thanks',
+            view:'mail.contactus-user-mail',
         );
     }
 

@@ -44,9 +44,24 @@
 
         <div class="container">
             <!-- HEADER LOGO -->
-            <div class="header_logo">
-                <a href="/"><img src="{{ asset('assets/web/images/logo.png') }}" alt=""></a>
-            </div>
+
+<?php
+
+function isMobile() {
+    return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
+}
+?>
+
+@if(isMobile())
+<div class="header_logo">
+    <a href="/"><img style=" background-color: green;" src="{{ asset('assets/web/images/logo.png') }}" alt=""></a>
+</div>
+@else
+
+<div class="header_logo">
+    <a href="/"><img src="{{ asset('assets/web/images/logo.png') }}" alt=""></a>
+</div>
+@endif
             <!-- END / HEADER LOGO -->
 
             <!-- HEADER MENU -->
