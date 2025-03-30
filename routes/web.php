@@ -1,9 +1,10 @@
 <?php
 
-use App\Http\Controllers\ContactController;
-use App\Http\Controllers\WebsiteController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\WebsiteController;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -41,3 +42,11 @@ Route::get('thanks',[ContactController::class,'thanks'])->name('thanks');
 Route::get('gallery', function(){
     return view('website.gallery');
 });
+
+Auth::routes();
+Route::middleware(['auth'])->name('admin.')->prefix('admin')->group(function () {
+    Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
+    //contacts
+    Route::get('contact/list',[ContactController::class,'index'])->name('contact.index');
+});
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
