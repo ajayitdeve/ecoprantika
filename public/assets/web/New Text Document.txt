@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from landing.engotheme.com/html/lotus/demo/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Feb 2025 14:26:42 GMT -->
+<head>
+    <meta charset="utf-8">
+    <!-- TITLE -->
+    <title>Prantika</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" href="{{ asset('assets/web/mages/favicon.png') }}i"/>
+
+    <!-- GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Hind:400,300,500,600%7cMontserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- CSS LIBRARY -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/web/css/lib/font-awesome.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/web/css/lib/font-lotusicon.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/web/css/lib/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/web/css/lib/owl.carousel.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/web/css/lib/jquery-ui.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/web/css/lib/magnific-popup.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/web/css/lib/settings.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/web/css/lib/bootstrap-select.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/web/css/helper.css') }}">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/web/css/style.css') }}">
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+</head>
+
+<!--[if IE 7]> <body class="ie7 lt-ie8 lt-ie9 lt-ie10"> <![endif]-->
+<!--[if IE 8]> <body class="ie8 lt-ie9 lt-ie10"> <![endif]-->
+<!--[if IE 9]> <body class="ie9 lt-ie10"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
+
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <span class="preloader-dot"></span>
+    </div>
+    <!-- END / PRELOADER -->
+
+    <!-- PAGE WRAP -->
+    <div id="page-wrap">
+
+        <!-- HEADER -->
+        <header id="header" class="header-v2">
+
+            <!-- HEADER TOP -->
+            <div class="header_top">
+                <div class="container">
+                    <div class="header_left float-left">
+
+                        <span><i class="lotus-icon-location"></i> B 43, Survey Park, Kolkata  700 075 </span>
+                        <span><i class="lotus-icon-phone"></i> +91 98305 39990 </span>
+                    </div>
+                    {{-- <div class="header_right float-right">
+
+                        <span class="login-register">
+                            <a href="login.html">Login</a>
+                            <a href="register.html">register</a>
+                        </span>
+
+                        <div class="dropdown currency">
+                            <span>USD <i class="fa fa"></i></span>
+                            <ul>
+                                <li class="active"><a href="#">USD</a></li>
+                                <li><a href="#">EUR</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown language">
+                            <span>ENG</span>
+
+                            <ul>
+                                <li class="active"><a href="#">ENG</a></li>
+                                <li><a href="#">FR</a></li>
+                            </ul>
+                        </div>
+
+                    </div> --}}
+                </div>
+            </div>
+            <!-- END / HEADER TOP -->
+
+            <!-- HEADER LOGO & MENU -->
+            <div class="header_content" id="header_content">
+
+                <div class="container">
+                    <!-- HEADER LOGO -->
+                    <div class="header_logo">
+                        <a href="#"><img src="{{ asset('assets/web/images/logo.png') }}" alt=""></a>
+                    </div>
+                    <!-- END / HEADER LOGO -->
+
+                    <!-- HEADER MENU -->
+                    <nav class="header_menu">
+                        <ul class="menu">
+
+                            <li><a href="#">About Prantika </a></li>
+                            <li><a href="#">Explore Sundarbans </a></li>
+
+                            <li><a href="#">Packages </a></li>
+
+                            <li><a href="#">Booking </a></li>
+                            <li><a href="#">Contact </a></li>
+
+
+                            <li><a href="#"><i class="fa fa-facebook on icon-circle"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+
+
+                        </ul>
+                    </nav>
+                    <!-- END / HEADER MENU -->
+
+                    <!-- MENU BAR -->
+                    <span class="menu-bars">
+                        <span></span>
+                    </span>
+                    <!-- END / MENU BAR -->
+
+                </div>
+            </div>
+            <!-- END / HEADER LOGO & MENU -->
+
+        </header>
+        <!-- END / HEADER -->
+
+        <!-- BANNER SLIDER -->
+        <section class="section-slider">
+            <h1 class="element-invisible">Slider</h1>
+            <div id="slider-revolution">
+                <ul>
+                    <li data-transition="fade">
+                        <img src="{{ asset('assets/web/images/slider/slider-bg.jpg') }}" data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
+
+                        <div class="tp-caption sft fadeout slider-caption-sub slider-caption-1" data-x="center" data-y="300" data-speed="700" data-start="1500" data-easing="easeOutBack">
+                         <img width="250px" src="{{ asset('assets/web/images/slider/logo.png') }}" alt="icons">
+                        </div>
+
+                        <div class="tp-caption sft fadeout slider-caption-sub slider-caption-1" data-x="center" data-y="450" data-speed="700" data-start="1500" data-easing="easeOutBack">
+                             <p style="font-size: 18px; text-align: center"> Experience the edge of nature's ubiquitous <br>
+                                serenity amidst the largest mangrove forest in the world Explore the edge <br>
+                                of hospitality in one of the last Indigenous villages, drifting with ‘climate change’ </p>
+
+                        </div>
+
+                        {{-- <div class="tp-caption sfb fadeout slider-caption slider-caption-sub-1" data-x="center" data-y="280" data-speed="700" data-easing="easeOutBack"  data-start="2000">THE LOTUS HOTEL</div> --}}
+
+                        {{-- <a href="#" class="tp-caption sfb fadeout awe-btn awe-btn-12 awe-btn-slider" data-x="center" data-y="380" data-easing="easeOutBack" data-speed="700" data-start="2200">VIEW NOW</a> --}}
+                    </li>
+
+                    {{-- <li data-transition="fade">
+                        <img src="{{ asset('assets/web/images/slider/img-4.jpg') }}" data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
+
+                        <div class="tp-caption sft fadeout" data-x="center" data-y="195" data-speed="700" data-start="1300" data-easing="easeOutBack">
+                          <img src="{{ asset('assets/web/images/icon-slider-1.png') }}" alt="">
+                        </div>
+
+                        <div class="tp-caption sft fadeout slider-caption-sub slider-caption-sub-3" data-x="center" data-y="220" data-speed="700" data-start="1500" data-easing="easeOutBack">
+                           EACH HOTEL IS
+                        </div>
+
+                        <div class="tp-caption sfb fadeout slider-caption slider-caption-3" data-x="center" data-y="260" data-speed="700" data-easing="easeOutBack"  data-start="2000">
+                            UNIQUE 60%
+                        </div>
+
+                        <div class="tp-caption sfb fadeout slider-caption-sub slider-caption-sub-3" data-x="center" data-y="365" data-easing="easeOutBack" data-speed="700" data-start="2200">JUST LIKE YOU</div>
+
+                        <div class="tp-caption sfb fadeout slider-caption-sub slider-caption-sub-3" data-x="center" data-y="395" data-easing="easeOutBack" data-speed="700" data-start="2400"><img src="{{ asset('assets/web/') }}images/icon-slider-2.png" alt=""></div>
+                    </li> --}}
+
+                </ul>
+            </div>
+
+        </section>
+        <!-- END / BANNER SLIDER -->
+
+        <!-- CHECK AVAILABILITY -->
+        {{-- <section class="section-check-availability">
+            <div class="container">
+                <div class="check-availability">
+                    <div class="row v-align">
+                        <div class="col-lg-3">
+                            <h2 class="title-room">ROOMS & RATES</h2>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="availability-form">
+                                <input type="text" class="awe-calendar from" placeholder="Arrival Date">
+                                <input type="text" class="awe-calendar to" placeholder="Departure Date">
+
+                                <select class="awe-select">
+                                    <option>Adults</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                                <select class="awe-select">
+                                    <option>Children</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                                <div class="vailability-submit">
+                                    <button class="awe-btn awe-btn-13">FIND THE BEST RATE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> --}}
+        <!-- END / CHECK AVAILABILITY -->
+
+
+        <!-- TOURISM CENTRE -->
+        <section class="section-accomd awe-parallax bg-14">
+            <div class="container">
+                <div class="accomd-modations">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="accomd-modations-header">
+                                <h4 style="font-size: 25px" class="heading">OUR ECO-KNOWLEDGE TOURISM CENTRE </h4>
+                                <img width="350px"  src="{{ asset('assets/web/images/header-icon.png') }}" alt="icon">
+                                <p style="font-size: 17px; color: black; font-family: montserrat; font-weight: 500;">Located amidst a secluded tribal village in Tipligheri, the Community Resilience Through Adaptation and Climate Knowledge (CRACK) centre offers you an extraordinary experience! With an in-build weather station, a living lab integrated with a green setting, you get a rare opportunity to understand biodiversity in a climate change milieu.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="accomd-modations-content owl-single">
+
+                                <div class="gallery  no-padding">
+
+                                    <!-- GALLERY CONTENT -->
+                                    <div class="gallery-content hover-img">
+                                        <div class="row">
+                                            <div class="gallery-isotope col-3 pd-2">
+
+                                                <!-- ITEM SIZE -->
+                                                    <div class="item-size"></div>
+                                                    <!-- END / ITEM SIZE -->
+                                                <!-- ITEM -->
+
+                                                <div class="item-isotope suite dining ">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/popup/img-1.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img src="{{ asset('assets/web/images/gallery/img-1.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope  ground bathroom suite">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/popup/img-1.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img src="{{ asset('assets/web/images/gallery/img-2.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope ground bathroom dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/popup/img-1.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img src="{{ asset('assets/web/images/gallery/img-3.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope suite dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/popup/img-1.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img src="{{ asset('assets/web/images/gallery/img-4.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope  ground suite dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/popup/img-1.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img src="{{ asset('assets/web/images/gallery/img-5.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope ground bathroom dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/popup/img-1.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img src="{{ asset('assets/web/images/gallery/img-6.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope ground suite dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/popup/img-1.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img src="{{ asset('assets/web/images/gallery/img-7.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope bathroom suite dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/popup/img-1.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img src="{{ asset('assets/web/images/gallery/img-8.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                 <!-- ITEM -->
+                                                 <div class="item-isotope bathroom suite dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/popup/img-1.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img src="{{ asset('assets/web/images/gallery/img-8.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+
+                                            </div>
+                                        </div>
+
+                                        {{-- <div class="our-gallery text-center">
+                                            <a href="#" class="awe-btn awe-btn-default">BROWSE OUR GALLERY</a>
+                                        </div> --}}
+
+                                    </div>
+                                    <!-- GALLERY CONTENT -->
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- END / TOURISM CENTRE -->
+
+
+        <!-- ABOUT -->
+        <section class="section-home-about bg-2">
+            <div class="container">
+                <div class="home-about">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="img" style="padding-bottom: 50px">
+                                <a href="#"><img src="{{ asset('assets/web/images/about/About-us.jpg') }}" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text" style="padding-top: 50px">
+                                <h2 class="heading">ABOUT SUNDARBANS</h2>
+
+                                <p style="font-size: 22px">Away from the humdrum of a mundane world, a beautiful ecosystem thrives in the world's largest mangrove forest of Sundarbans.
+                                </p>
+                                <a href="#" style="background: #e2f0d9; padding: 15px 25px; font-weight: 700;" class="awe-btn awe-btn-default">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END / ABOUT -->
+
+        <!-- Gallery -->
+
+        <section class="section-accomd awe-parallax bg-14">
+            <div class="container">
+                <div class="accomd-modations">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="accomd-modations-header">
+                                <h4 style="font-size: 25px" class="heading">GALLERY </h4>
+                                <img width="350px"  src="{{ asset('assets/web/images/header-icon.png') }}" alt="icon">
+
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="accomd-modations-content owl-single">
+
+                                <div class="gallery  no-padding">
+
+                                    <!-- GALLERY CONTENT -->
+                                    <div class="gallery-content hover-img">
+                                        <div class="row">
+                                            <div class="gallery-isotope col-4 pd-2">
+
+                                                <!-- ITEM SIZE -->
+                                                    <div class="item-size"></div>
+                                                    <!-- END / ITEM SIZE -->
+                                                <!-- ITEM -->
+
+                                                <div class="item-isotope suite dining ">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/gallery-img1.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img src="{{ asset('assets/web/images/gallery/gallery-img1.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope  ground bathroom suite">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/gallery-img2.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img style="height: 200px;" src="{{ asset('assets/web/images/gallery/gallery-img2.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope ground bathroom dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/gallery-img3.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img src="{{ asset('assets/web/images/gallery/gallery-img3.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope suite dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/gallery-img4.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img src="{{ asset('assets/web/images/gallery/gallery-img4.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope  ground suite dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/gallery-img5.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img style="height: 200px;" src="{{ asset('assets/web/images/gallery/gallery-img5.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope ground bathroom dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/gallery-img6.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img style="height: 200px;" src="{{ asset('assets/web/images/gallery/gallery-img6.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope ground suite dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/gallery-img7.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img style="height: 200px;" src="{{ asset('assets/web/images/gallery/gallery-img7.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                <!-- ITEM -->
+                                                <div class="item-isotope bathroom suite dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/gallery-img8.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img style="height: 200px;" src="{{ asset('assets/web/images/gallery/gallery-img8.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                 <!-- ITEM -->
+                                                 <div class="item-isotope bathroom suite dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/gallery-img9.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img  style="height: 200px;" src="{{ asset('assets/web/images/gallery/gallery-img9.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+                                                 <!-- ITEM -->
+                                                 <div class="item-isotope bathroom suite dining">
+                                                    <div class="gallery_item">
+                                                        <a  href="{{ asset('assets/web/images/gallery/gallery-img10.jpg') }}" class="gallery-popup mfp-image" title="Luxury Room view all">
+                                                            <img style="height: 200px;" src="{{ asset('assets/web/images/gallery/gallery-img10.jpg') }}" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- END / ITEM -->
+
+
+                                            </div>
+                                        </div>
+
+                                        <div class="our-gallery text-center">
+                                            <a style="background: #e2f0d9; padding: 15px 25px; font-weight: 700;" href="#" class="awe-btn awe-btn-default">BROWSE OUR GALLERY</a>
+                                        </div>
+
+                                    </div>
+                                    <!-- GALLERY CONTENT -->
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--End Gallery -->
+
+
+
+        <!-- FOOTER -->
+        <footer id="footer">
+
+            <!-- FOOTER TOP -->
+            <div class="footer_top">
+                <div class="container">
+                    <div class="row">
+
+                        <!-- WIDGET MAILCHIMP -->
+                        <div class="col-lg-9">
+                            <div class="mailchimp">
+                                <h4>News &amp; Offers</h4>
+                                <div class="mailchimp-form">
+                                    <form action="#" method="POST">
+                                        <input type="text" name="email" placeholder="Your email address" class="input-text">
+                                        <button class="awe-btn">SIGN UP</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END / WIDGET MAILCHIMP -->
+
+                        <!-- WIDGET SOCIAL -->
+                        <div class="col-lg-3">
+                            <div class="social">
+                                <div class="social-content">
+                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END / WIDGET SOCIAL -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- END / FOOTER TOP -->
+
+            <!-- FOOTER CENTER -->
+            <div class="footer_center">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-lg-5">
+                            <div class="widget widget_logo">
+                                <div class="widget-logo">
+                                    <div class="img">
+                                        <a href="#"><img src="{{ asset('assets/web/images/logo.png') }}" alt=""></a>
+                                    </div>
+                                    <div class="text">
+                                        <p><i class="lotus-icon-location"></i> B 43, Survey Park, Kolkata  700 075                                        </p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-lg-3">
+                            <div class="widget widget_logo">
+                                <div class="widget-logo">
+
+                                    <div class="text">
+
+                                        <p><i class="lotus-icon-phone"></i> +91 98305 39990 </p>
+                                        <p><i class="fa fa-envelope-o"></i> <a href="mailto:prantikatours@gmail.com">prantikatours@gmail.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-lg-3">
+                            <div class="widget widget_logo">
+                                <div class="widget-logo">
+<!-- WIDGET SOCIAL -->
+<div class="col-lg-3">
+    <div class="social">
+        <div class="social-content" style="display: flex;">
+
+
+            <a style="color: #ffffff; width: 50px;" href="#"><img src="{{ asset('assets/web/images/facebook-new.png') }}" alt=""></a>
+            <a style="color: #ffffff; width : 50px;" href="#"><img src="{{ asset('assets/web/images/facebook-new.png') }}" alt=""></a>
+        </div>
+    </div>
+</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- END / FOOTER CENTER -->
+
+            <!-- FOOTER BOTTOM -->
+            <div class="footer_bottom">
+                <div class="container">
+                    <p>&copy; 2016 Lotus Hotel All rights reserved.</p>
+                </div>
+            </div>
+            <!-- END / FOOTER BOTTOM -->
+
+        </footer>
+        <!-- END / FOOTER -->
+
+    </div>
+    <!-- END / PAGE WRAP -->
+
+
+    <!-- LOAD JQUERY -->
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/jquery-1.11.0.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/jquery-ui.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/bootstrap-select.js') }}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/isotope.pkgd.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/jquery.themepunch.revolution.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/jquery.themepunch.tools.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/owl.carousel.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/jquery.appear.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/jquery.countTo.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/jquery.countdown.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/jquery.parallax-1.1.3.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/jquery.magnific-popup.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/lib/SmoothScroll.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/web/js/scripts.js') }}"></script>
+</body>
+
+<!-- Mirrored from landing.engotheme.com/html/lotus/demo/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Feb 2025 14:26:44 GMT -->
+</html>
