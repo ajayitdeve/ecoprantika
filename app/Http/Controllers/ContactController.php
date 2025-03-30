@@ -32,8 +32,12 @@ class ContactController extends Controller
            Mail::to($request->email)->send(new ContactFormMail($data));
            //Session::flash('message','Thanks for Connection us');
 
-           return $request;
+           return to_route('thanks');
 
 
+    }
+
+    public function thanks(){
+        return view('website.thanks');
     }
 }

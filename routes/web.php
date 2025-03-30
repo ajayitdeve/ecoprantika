@@ -36,6 +36,7 @@ Route::get('contact-us', function(){
 });
 
 Route::post('thanks',[ContactController::class,'sendmail'])->name('sendmail');
+Route::get('thanks',[ContactController::class,'thanks'])->name('thanks');
 
 Route::get('gallery', function(){
     return view('website.gallery');
