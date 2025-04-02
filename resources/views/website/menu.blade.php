@@ -10,45 +10,7 @@
                 <span><i class="lotus-icon-location"></i> B 43, Survey Park, Kolkata  700 075 </span>
                 <span><i class="lotus-icon-phone"></i> +91 98305 39990 </span>
             </div>
-            <div class="header_right float-right">
 
-                <span class="login-register">
-                    @guest
-                    <a href="{{route('login')}}">Login</a>
-                    @else
-                    <a href="{{route('login')}}">{{Auth::user()->name}}</a>
-                    <a href="{{ route('logout') }}"
-                            onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();"
-                            class="dropdown-item">
-                            <i class="ph-sign-out me-2"></i>
-                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                @csrf
-                            </form>
-                            Logout
-                        </a>
-                    {{-- <a href="register.html">register</a> --}}
-                    @endguest
-                </span>
-{{--
-                <div class="dropdown currency">
-                    <span>USD <i class="fa fa"></i></span>
-                    <ul>
-                        <li class="active"><a href="#">USD</a></li>
-                        <li><a href="#">EUR</a></li>
-                    </ul>
-                </div>
-
-                <div class="dropdown language">
-                    <span>ENG</span>
-
-                    <ul>
-                        <li class="active"><a href="#">ENG</a></li>
-                        <li><a href="#">FR</a></li>
-                    </ul>
-                </div> --}}
-
-            </div>
         </div>
     </div>
     <!-- END / HEADER TOP -->
