@@ -13,8 +13,22 @@
             <div class="header_right float-right">
 
                 <span class="login-register">
+                    @guest
                     <a href="{{route('login')}}">Login</a>
+                    @else
+                    <a href="{{route('login')}}">{{Auth::user()->name}}</a>
+                    <a href="{{ route('logout') }}"
+                            onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();"
+                            class="dropdown-item">
+                            <i class="ph-sign-out me-2"></i>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
+                            Logout
+                        </a>
                     {{-- <a href="register.html">register</a> --}}
+                    @endguest
                 </span>
 {{--
                 <div class="dropdown currency">
