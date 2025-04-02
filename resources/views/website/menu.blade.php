@@ -10,13 +10,13 @@
                 <span><i class="lotus-icon-location"></i> B 43, Survey Park, Kolkata  700 075 </span>
                 <span><i class="lotus-icon-phone"></i> +91 98305 39990 </span>
             </div>
-            {{-- <div class="header_right float-right">
+            <div class="header_right float-right">
 
                 <span class="login-register">
-                    <a href="login.html">Login</a>
-                    <a href="register.html">register</a>
+                    <a href="{{route('login')}}">Login</a>
+                    {{-- <a href="register.html">register</a> --}}
                 </span>
-
+{{--
                 <div class="dropdown currency">
                     <span>USD <i class="fa fa"></i></span>
                     <ul>
@@ -32,9 +32,9 @@
                         <li class="active"><a href="#">ENG</a></li>
                         <li><a href="#">FR</a></li>
                     </ul>
-                </div>
+                </div> --}}
 
-            </div> --}}
+            </div>
         </div>
     </div>
     <!-- END / HEADER TOP -->
