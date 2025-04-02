@@ -11,7 +11,7 @@
 	 <!-- CSRF Token -->
      <meta name="csrf-token" content="{{ csrf_token() }}">
 
-     <title>Apex Techno : Water Polution Control</title>
+     <title>Prantika: Admin Panel</title>
 
 
 	<!-- Global stylesheets -->

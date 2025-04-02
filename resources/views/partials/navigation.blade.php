@@ -8,7 +8,8 @@
 
         <div class="navbar-brand flex-1 flex-lg-0">
             <a href="{{ route('admin.dashboard') }}" class="d-inline-flex align-items-center">
-                <img src="{{ asset('assets/images/apex-logo.png') }}" alt="">
+                <img style=" background-color: #577f45;" src="{{ asset('assets/web/images/logo.png') }}"
+                class="h-48px" alt="">
 
             </a>
         </div>

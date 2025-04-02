@@ -13,7 +13,8 @@
                             <div class="text-center mb-3 ">
                                 <div class="d-inline-flex align-items-center justify-content-center mb-4 mt-2 p-2"
                                     style="background-color: gray;">
-                                    <img src="{{ asset('assets/images/apex-logo.png') }}" class="h-48px" alt="">
+                                    <img style=" background-color: #577f45;" src="{{ asset('assets/web/images/logo.png') }}"
+                                    class="h-48px" alt="">
                                 </div>
                                 <h5 class="mb-0">Create account</h5>
                                 <span class="d-block text-muted">All fields are required</span>
